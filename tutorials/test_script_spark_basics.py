@@ -14,7 +14,7 @@ sc = SparkContext.getOrCreate()
 ###########################
 # PATHING
 
-data_path = '/home/jovyan/work/data/'
+data_path = '/home/jovyan/UCSB_BigDataAnalytics/data/'
 data_filename = 'some_text.txt'
 
 data_path_full = os.path.join(data_path, data_filename)
